@@ -15,13 +15,13 @@ export default function Navigation() {
                 <p className="font-bold text-lg uppercase">Blog</p>
             </NavbarBrand>
             <NavbarContent className="hidden sm:flex gap-4" justify="center">
-                <NavbarItem>
+                <NavbarItem isActive>
                     <Link color="foreground" href="#">
                         Home
                     </Link>
                 </NavbarItem>
-                <NavbarItem isActive>
-                    <Link href="#" aria-current="page">
+                <NavbarItem>
+                    <Link color="foreground" href="#">
                         Blog
                     </Link>
                 </NavbarItem>
@@ -41,10 +41,17 @@ export default function Navigation() {
                     <Link href="#">Search</Link>
                 </NavbarItem>
                 <NavbarItem className="hidden lg:flex">
-                    <Link href="#">Login</Link>
+                    <Button
+                        as={Link}
+                        color="primary"
+                        variant="bordered"
+                        href="#"
+                    >
+                        Login
+                    </Button>
                 </NavbarItem>
                 <NavbarItem>
-                    <Button as={Link} color="primary" href="#" variant="flat">
+                    <Button as={Link} color="primary" variant="flat" href="#">
                         Sign Up
                     </Button>
                 </NavbarItem>
