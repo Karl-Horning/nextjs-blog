@@ -13,16 +13,22 @@ export default function Hero() {
                     </p>
                     <div className="flex justify-center">
                         <Button
+                            color="primary"
+                            radius="md"
                             size="lg"
                             href="#"
-                            className="bg-blue-500 hover:bg-blue-600 text-white text-lg font-light py-4 px-4 rounded-xl mr-4"
+                            className="text-white text-lg font-light py-4 px-4 mr-4"
                         >
                             Primary Button
                         </Button>
-                        
+
                         <Button
+                            color="primary"
+                            radius="md"
+                            size="lg"
+                            variant="bordered"
                             href="#"
-                            className="bg-gray-500 hover:bg-gray-600 text-white text-lg font-light py-4 px-4 rounded-xl"
+                            className="text-lg py-4 px-4"
                         >
                             Secondary Button
                         </Button>
