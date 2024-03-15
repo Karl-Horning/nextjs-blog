@@ -10,7 +10,7 @@ import {
 
 export default function Navigation() {
     return (
-        <Navbar>
+        <Navbar shouldHideOnScroll maxWidth="xl">
             <NavbarBrand>
                 <p className="font-bold text-lg uppercase">Blog</p>
             </NavbarBrand>
