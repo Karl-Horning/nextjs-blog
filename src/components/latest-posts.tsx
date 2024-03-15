@@ -1,4 +1,5 @@
-import { Card, CardHeader, CardBody, Image, Link } from "@nextui-org/react";
+import { Link } from "@nextui-org/react";
+import PostCardMd from "@/components/post-card-md";
 
 export default function LatestPosts() {
     return (
@@ -11,86 +12,39 @@ export default function LatestPosts() {
                     <p className="text-3xl md:text-2xl mb-12 text-gray-600">
                         Get started with our latest posts
                     </p>
-                    <p className="text-right">
+                    <p className="md:text-right">
                         <Link href={"#"}>See all posts</Link>
                     </p>
                 </div>
                 <div className="columns-2 md:columns-4">
-                    <Card className="py-4">
-                        <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
-                            <Image
-                                alt="Card background"
-                                className="object-cover rounded-xl"
-                                src="/images/hero-card-complete.jpg"
-                                width={270}
-                            />
-                        </CardHeader>
-                        <CardBody className="overflow-visible py-2">
-                            <h4 className="font-bold text-large mb-2">
-                                How to write fake blog posts for website
-                                mock-ups
-                            </h4>
+                    <PostCardMd
+                        imgAlt="Card background"
+                        imgSource="/images/hero-card-complete.jpg"
+                        postTitle="How to write fake blog posts for website
+                        mock-ups"
+                        postAuthor="Karl"
+                    />
 
-                            <small className="text-default-500">By Karl</small>
-                        </CardBody>
-                    </Card>
+                    <PostCardMd
+                        imgAlt="Card background"
+                        imgSource="/images/hero-card-complete.jpg"
+                        postTitle="This is another test post"
+                        postAuthor="Cátia"
+                    />
 
-                    <Card className="py-4">
-                        <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
-                            <Image
-                                alt="Card background"
-                                className="object-cover rounded-xl"
-                                src="/images/hero-card-complete.jpg"
-                                width={270}
-                            />
-                        </CardHeader>
-                        <CardBody className="overflow-visible py-2">
-                            <h4 className="font-bold text-large mb-2">
-                                How to write fake blog posts for website
-                                mock-ups
-                            </h4>
+                    <PostCardMd
+                        imgAlt="Card background"
+                        imgSource="/images/hero-card-complete.jpg"
+                        postTitle="This is a longer test post to see how the text wraps"
+                        postAuthor="Eva"
+                    />
 
-                            <small className="text-default-500">By Karl</small>
-                        </CardBody>
-                    </Card>
-
-                    <Card className="py-4">
-                        <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
-                            <Image
-                                alt="Card background"
-                                className="object-cover rounded-xl"
-                                src="/images/hero-card-complete.jpg"
-                                width={270}
-                            />
-                        </CardHeader>
-                        <CardBody className="overflow-visible py-2">
-                            <h4 className="font-bold text-large mb-2">
-                                How to write fake blog posts for website
-                                mock-ups
-                            </h4>
-
-                            <small className="text-default-500">By Karl</small>
-                        </CardBody>
-                    </Card>
-
-                    <Card className="py-4">
-                        <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
-                            <Image
-                                alt="Card background"
-                                className="object-cover rounded-xl"
-                                src="/images/hero-card-complete.jpg"
-                                width={270}
-                            />
-                        </CardHeader>
-                        <CardBody className="overflow-visible py-2">
-                            <h4 className="font-bold text-large mb-2">
-                                How to write fake blog posts for website
-                                mock-ups
-                            </h4>
-
-                            <small className="text-default-500">By Karl</small>
-                        </CardBody>
-                    </Card>
+                    <PostCardMd
+                        imgAlt="Card background"
+                        imgSource="/images/hero-card-complete.jpg"
+                        postTitle="Meow!"
+                        postAuthor="Edgar & Nadia"
+                    />
                 </div>
             </div>
         </section>
