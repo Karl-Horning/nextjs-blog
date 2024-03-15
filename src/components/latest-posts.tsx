@@ -4,7 +4,7 @@ export default function LatestPosts() {
     return (
         <section id="latest-posts">
             <div className="container mx-auto px-4 m-36">
-                <div className="columns-2 mb-12">
+                <div className="columns-1 md:columns-2 mb-12">
                     <h2 className="text-4xl md:text-4xl font-bold mb-2">
                         Latest Posts
                     </h2>
@@ -15,7 +15,7 @@ export default function LatestPosts() {
                         <Link href={"#"}>See all posts</Link>
                     </p>
                 </div>
-                <div className="columns-4">
+                <div className="columns-2 md:columns-4">
                     <Card className="py-4">
                         <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
                             <Image
