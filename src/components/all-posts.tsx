@@ -1,3 +1,4 @@
+import { Pagination } from "@nextui-org/react";
 import PostCardLg from "@/components/post-card-lg";
 
 export default function AllPosts() {
@@ -42,6 +43,16 @@ export default function AllPosts() {
                     postAuthor="Karl"
                     publicationDate="15 March 2024"
                 />
+
+                <div className="flex justify-center">
+                    <Pagination
+                        showControls
+                        total={10}
+                        initialPage={1}
+                        size="lg"
+                        className="mb-8"
+                    />
+                </div>
             </div>
         </section>
     );
