@@ -3,6 +3,7 @@ import Hero from "@/components/hero";
 import LatestPosts from "@/components/latest-posts";
 import AllPosts from "@/components/all-posts";
 import Subscribe from "@/components/subscribe";
+import Footer from "@/components/footer";
 
 export default function App() {
     return (
@@ -12,6 +13,7 @@ export default function App() {
             <LatestPosts />
             <AllPosts />
             <Subscribe />
+            <Footer />
         </main>
     );
 }
