@@ -2,7 +2,7 @@ import { Input, Button } from "@nextui-org/react";
 
 export default function Subscribe() {
     return (
-        <section id="newsletter" className="container mx-auto px-4">
+        <section id="newsletter" className="container mx-auto px-4 mb-16">
             <div className="bg-blue-200 p-20 rounded-lg">
                 <div className="grid grid-cols-2 gap-4">
                     <div>
