@@ -2,7 +2,7 @@ import { Link, Chip } from "@nextui-org/react";
 
 export default function Categories() {
     return (
-        <div className="flex flex-col items-center">
+        <section className="flex flex-col items-center">
             <div className="w-full max-w-lg">
                 <h4 className="text-xl font-bold">Categories</h4>
                 <ul>
@@ -50,6 +50,6 @@ export default function Categories() {
                     </li>
                 </ul>
             </div>
-        </div>
+        </section>
     );
 }
