@@ -4,9 +4,14 @@ export default function Categories() {
     return (
         <section className="flex flex-col items-center">
             <div className="w-full max-w-lg">
-                <h4 className="text-xl font-bold">Categories</h4>
-                <ul>
-                    <li className="flex justify-between items-center py-4 border-b border-gray-400">
+                <div className="pb-10">
+                    <h4 className="text-xl font-bold text-white bg-black py-4 px-6">
+                        Categories
+                    </h4>
+                </div>
+
+                <ul className="pb-8 px-6">
+                    <li className="flex justify-between items-center py-4 px-6 border-b border-gray-400">
                         <span>
                             <Link href="#" color="primary">
                                 Writing
@@ -20,7 +25,7 @@ export default function Categories() {
                             </Link>
                         </span>
                     </li>
-                    <li className="flex justify-between items-center py-4 border-b border-gray-400">
+                    <li className="flex justify-between items-center py-4 px-6 border-b border-gray-400">
                         <span>
                             <Link href="#" color="primary">
                                 Work
@@ -34,7 +39,7 @@ export default function Categories() {
                             </Link>
                         </span>
                     </li>
-                    <li className="flex justify-between items-center py-4">
+                    <li className="flex justify-between items-center py-4 px-6">
                         <span>
                             <Link href="#" color="primary">
                                 WebDev
