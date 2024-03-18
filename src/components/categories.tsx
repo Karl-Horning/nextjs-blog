@@ -11,7 +11,7 @@ export default function Categories() {
                 </div>
 
                 <ul className="px-6">
-                    <li className="flex justify-between items-center py-4 px-6 border-b border-gray-400">
+                    <li className="flex justify-between items-center py-4 px-6 mb-2 border border-gray-400">
                         <span>
                             <Link href="#" color="danger">
                                 Writing
@@ -25,7 +25,7 @@ export default function Categories() {
                             </Link>
                         </span>
                     </li>
-                    <li className="flex justify-between items-center py-4 px-6 border-b border-gray-400">
+                    <li className="flex justify-between items-center py-4 px-6 mb-2 border border-gray-400">
                         <span>
                             <Link href="#" color="danger">
                                 Work
@@ -39,7 +39,7 @@ export default function Categories() {
                             </Link>
                         </span>
                     </li>
-                    <li className="flex justify-between items-center py-4 px-6">
+                    <li className="flex justify-between items-center py-4 px-6 mb-2 border border-gray-400">
                         <span>
                             <Link href="#" color="danger">
                                 WebDev
