@@ -13,13 +13,13 @@ export default function Categories() {
                 <ul className="px-6">
                     <li className="flex justify-between items-center py-4 px-6 border-b border-gray-400">
                         <span>
-                            <Link href="#" color="primary">
+                            <Link href="#" color="danger">
                                 Writing
                             </Link>
                         </span>
                         <span className="text-right">
-                            <Link href="#" color="primary">
-                                <Chip color="primary" radius="full" size="lg">
+                            <Link href="#" color="danger">
+                                <Chip color="danger" radius="full" size="lg">
                                     9
                                 </Chip>
                             </Link>
@@ -27,13 +27,13 @@ export default function Categories() {
                     </li>
                     <li className="flex justify-between items-center py-4 px-6 border-b border-gray-400">
                         <span>
-                            <Link href="#" color="primary">
+                            <Link href="#" color="danger">
                                 Work
                             </Link>
                         </span>
                         <span className="text-right">
-                            <Link href="#" color="primary">
-                                <Chip color="primary" radius="full" size="lg">
+                            <Link href="#" color="danger">
+                                <Chip color="danger" radius="full" size="lg">
                                     2
                                 </Chip>
                             </Link>
@@ -41,13 +41,13 @@ export default function Categories() {
                     </li>
                     <li className="flex justify-between items-center py-4 px-6">
                         <span>
-                            <Link href="#" color="primary">
+                            <Link href="#" color="danger">
                                 WebDev
                             </Link>
                         </span>
                         <span className="text-right">
-                            <Link href="#" color="primary">
-                                <Chip color="primary" radius="full" size="lg">
+                            <Link href="#" color="danger">
+                                <Chip color="danger" radius="full" size="lg">
                                     6
                                 </Chip>
                             </Link>
