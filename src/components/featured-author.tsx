@@ -24,25 +24,25 @@ export default function FeaturedAuthor() {
                 <div className="flex justify-center space-x-4">
                     <Link
                         href="#"
-                        className="text-gray-400 hover:text-blue-700 text-2xl"
+                        className="text-danger text-2xl"
                     >
                         <i className="fa fa-facebook"></i>
                     </Link>
                     <Link
                         href="#"
-                        className="text-gray-400 hover:text-blue-700 text-2xl"
+                        className="text-danger text-2xl"
                     >
                         <i className="fa fa-twitter"></i>
                     </Link>
                     <Link
                         href="#"
-                        className="text-gray-400 hover:text-blue-700 text-2xl"
+                        className="text-danger text-2xl"
                     >
                         <i className="fa fa-instagram"></i>
                     </Link>
                     <Link
                         href="#"
-                        className="text-gray-400 hover:text-blue-700 text-2xl"
+                        className="text-danger text-2xl"
                     >
                         <i className="fa fa-linkedin"></i>
                     </Link>
