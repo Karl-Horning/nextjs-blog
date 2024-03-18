@@ -10,7 +10,7 @@ import {
 
 export default function TrendingPosts() {
     return (
-        <section id="trending-posts">
+        <section id="trending-posts" className="pb-16">
             <div className="pb-10">
                 <h4 className="text-xl font-bold text-white bg-black py-4 px-6">
                     Popular
