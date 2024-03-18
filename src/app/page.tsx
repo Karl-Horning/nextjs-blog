@@ -20,8 +20,8 @@ export default function App() {
                         <Subscribe />
                     </main>
                     <aside id="sidebar" className="md:col-span-1">
-                        <Categories />
                         <TrendingPosts />
+                        <Categories />
                     </aside>
                 </div>
             </div>
