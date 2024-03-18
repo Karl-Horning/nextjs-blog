@@ -6,6 +6,7 @@ import Subscribe from "@/components/subscribe";
 import Footer from "@/components/footer";
 import Categories from "@/components/categories";
 import TrendingPosts from "@/components/trending-posts";
+import FeaturedAuthor from "@/components/featured-author";
 
 export default function App() {
     return (
@@ -20,6 +21,7 @@ export default function App() {
                         <Subscribe />
                     </main>
                     <aside id="sidebar" className="md:col-span-1">
+                        <FeaturedAuthor />
                         <TrendingPosts />
                         <Categories />
                     </aside>
