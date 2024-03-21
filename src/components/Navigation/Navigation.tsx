@@ -19,7 +19,7 @@ export default function Navigation() {
     const menuItems = ["Home", "Blog", "About", "Contact", "Log Out"];
 
     return (
-        <Navbar onMenuOpenChange={setIsMenuOpen}>
+        <Navbar onMenuOpenChange={setIsMenuOpen} maxWidth="xl">
             <NavbarContent>
                 <NavbarMenuToggle
                     aria-label={isMenuOpen ? "Close menu" : "Open menu"}
