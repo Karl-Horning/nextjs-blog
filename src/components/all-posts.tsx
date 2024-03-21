@@ -43,14 +43,14 @@ export default function AllPosts() {
                 publicationDate="15 March 2024"
             />
 
-            <div className="flex justify-center">
+            {/* <div className="flex justify-center">
                 <Pagination
                     showControls
                     total={10}
                     initialPage={1}
                     size="lg"
                 />
-            </div>
+            </div> */}
         </section>
     );
 }

@@ -69,7 +69,7 @@ export default function PostCardLg({
             <p className="text-lg mb-8 text-gray-600">{postLead}</p>
 
             <div className="grid md:grid-cols-2 gap-4 mb-8">
-                <div className="grid grid-cols-4 gap-4">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                     <div className="flex justify-center items-center">
                         <Button
                             className="text-lg bg-facebook"
@@ -96,10 +96,7 @@ export default function PostCardLg({
                             variant="solid"
                             fullWidth
                         >
-                            <i
-                                className="fa fa-twitter"
-                                aria-hidden="true"
-                            ></i>
+                            <i className="fa fa-twitter" aria-hidden="true"></i>
                         </Button>
                     </div>
                     <div className="flex justify-center items-center">
@@ -135,10 +132,10 @@ export default function PostCardLg({
                         </Button>
                     </div>
                 </div>
-                <div className="grid grid-cols-1">
-                    <div className="flex justify-end items-center">
+                <div className="md:grid md:grid-cols-1">
+                    <div className="md:flex md:justify-end md:items-center">
                         <Button
-                            className="text-lg border-3"
+                            className="text-lg border-3 md:w-auto w-full"
                             color="danger"
                             href="#"
                             radius="none"
