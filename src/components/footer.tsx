@@ -3,70 +3,152 @@ import "font-awesome/css/font-awesome.min.css";
 
 export default function Footer() {
     return (
-        <footer className="bg-gray-800 text-white py-12">
-            <div className="container mx-auto flex flex-wrap justify-between">
-                <div className="w-full md:w-1/3 mb-6 md:mb-0">
-                    <h4 className="text-xl font-bold">Blog</h4>
-                    <p className="mt-4">A brief description of the site.</p>
-                </div>
-                <div className="w-full md:w-1/3 mb-6 md:mb-0">
-                    <h3 className="text-lg font-bold mb-4">Navigation</h3>
-                    <ul>
-                        <li>
-                            <a href="#" className="block hover:text-gray-400">
-                                Home
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" className="block hover:text-gray-400">
-                                About
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" className="block hover:text-gray-400">
-                                Services
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" className="block hover:text-gray-400">
-                                Contact
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div className="w-full md:w-1/3">
-                    <h3 className="text-lg font-bold mb-4">Follow Us</h3>
-                    <div className="flex space-x-4">
-                        <Link
-                            href="#"
-                            className="text-gray-400 hover:text-white text-2xl"
-                        >
-                            <i className="fa fa-facebook"></i>
-                        </Link>
-                        <Link
-                            href="#"
-                            className="text-gray-400 hover:text-white text-2xl"
-                        >
-                            <i className="fa fa-twitter"></i>
-                        </Link>
-                        <Link
-                            href="#"
-                            className="text-gray-400 hover:text-white text-2xl"
-                        >
-                            <i className="fa fa-instagram"></i>
-                        </Link>
-                        <Link
-                            href="#"
-                            className="text-gray-400 hover:text-white text-2xl"
-                        >
-                            <i className="fa fa-linkedin"></i>
-                        </Link>
+        <>
+            <footer className="bg-black text-white py-12">
+                <div className="container mx-auto px-4">
+                    <div className="grid md:grid-cols-5 gap-4 md:text-left text-center">
+                        <div className="md:col-span-2 p-4">
+                            <h4 className="text-xl font-bold">Blog</h4>
+                            <p className="text-gray-400 mt-4">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Ab vero quo nobis fugit vel
+                                accusamus porro dignissimos, qui a totam
+                                blanditiis mollitia amet nisi. Quibusdam
+                                molestiae ducimus quod dicta ex.
+                            </p>
+                        </div>
+
+                        <div className="p-4">
+                            <h3 className="text-lg font-bold mb-4">Support</h3>
+                            <ul>
+                                <li className="pb-4">
+                                    <Link
+                                        href="#"
+                                        className="text-gray-400 hover:text-white"
+                                    >
+                                        Privacy Policy
+                                    </Link>
+                                </li>
+                                <li className="pb-4">
+                                    <Link
+                                        href="#"
+                                        className="text-gray-400 hover:text-white"
+                                    >
+                                        FAQ
+                                    </Link>
+                                </li>
+                                <li className="pb-4">
+                                    <Link
+                                        href="#"
+                                        className="text-gray-400 hover:text-white"
+                                    >
+                                        Newsletter
+                                    </Link>
+                                </li>
+                                <li className="pb-4">
+                                    <Link
+                                        href="#"
+                                        className="text-gray-400 hover:text-white"
+                                    >
+                                        Contact Us
+                                    </Link>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div className="p-4">
+                            <h3 className="text-lg font-bold mb-4">
+                                Navigation
+                            </h3>
+                            <ul>
+                                <li className="pb-4">
+                                    <Link
+                                        href="#"
+                                        className="text-gray-400 hover:text-white"
+                                    >
+                                        Home
+                                    </Link>
+                                </li>
+                                <li className="pb-4">
+                                    <Link
+                                        href="#"
+                                        className="text-gray-400 hover:text-white"
+                                    >
+                                        Blog
+                                    </Link>
+                                </li>
+                                <li className="pb-4">
+                                    <Link
+                                        href="#"
+                                        className="text-gray-400 hover:text-white"
+                                    >
+                                        About
+                                    </Link>
+                                </li>
+                                <li className="pb-4">
+                                    <Link
+                                        href="#"
+                                        className="text-gray-400 hover:text-white"
+                                    >
+                                        Contact
+                                    </Link>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div className="p-4">
+                            <h3 className="text-lg font-bold mb-4">
+                                Follow Us
+                            </h3>
+                            <ul>
+                                <li className="pb-4">
+                                    <Link
+                                        href="#"
+                                        className="block text-gray-400 hover:text-white"
+                                    >
+                                        <i className="fa fa-facebook-official"></i>{" "}
+                                        Facebook
+                                    </Link>
+                                </li>
+                                <li className="pb-4">
+                                    <Link
+                                        href="#"
+                                        className="block text-gray-400 hover:text-white"
+                                    >
+                                        <i className="fa fa-twitter"></i>{" "}
+                                        Twitter
+                                    </Link>
+                                </li>
+                                <li className="pb-4">
+                                    <Link
+                                        href="#"
+                                        className="block text-gray-400 hover:text-white"
+                                    >
+                                        <i className="fa fa-instagram"></i>{" "}
+                                        Instagram
+                                    </Link>
+                                </li>
+                                <li className="pb-4">
+                                    <Link
+                                        href="#"
+                                        className="text-gray-400 hover:text-white"
+                                    >
+                                        <i className="fa fa-linkedin"></i>{" "}
+                                        LinkedIn
+                                    </Link>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className="mt-32 text-center text-gray-500 text-sm">
+                        <p>
+                            &copy; {new Date().getFullYear()} All rights
+                            reserved.
+                        </p>
                     </div>
                 </div>
-            </div>
-            <div className="mt-8 text-center text-gray-500 text-sm">
-                <p>&copy; {new Date().getFullYear()} All rights reserved.</p>
-            </div>
-        </footer>
+            </footer>
+        </>
     );
 }
