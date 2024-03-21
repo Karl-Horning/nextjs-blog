@@ -18,12 +18,12 @@ export default function App() {
                 <div className="grid md:grid-cols-3 gap-4">
                     <main id="blog-posts" className="md:col-span-2">
                         <AllPosts />
-                        <Subscribe />
                     </main>
                     <aside id="sidebar" className="md:col-span-1">
                         <FeaturedAuthor />
                         <TrendingPosts />
                         <Categories />
+                        <Subscribe />
                     </aside>
                 </div>
             </div>
