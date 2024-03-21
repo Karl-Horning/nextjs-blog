@@ -1,46 +1,52 @@
 import { Pagination } from "@nextui-org/react";
-import PostCardLg from "@/components/post-card-lg";
+import MainPost from "@/components/Posts/MainPost";
 
-export default function AllPosts() {
+export default function AllMainPosts() {
     return (
         <section id="all-posts" className="container mx-auto mb-16">
-            <PostCardLg
+            <MainPost
                 imgAlt="Example text"
                 imgSource="/images/hero-card-complete.jpg"
-                postTitle="This is the first post here, but there will be many more
+                title="This is the first post here, but there will be many more
                     soon"
-                postLead="Lorem ipsum dolor, sit amet consectetur adipisicing
+                snippet="Lorem ipsum dolor, sit amet consectetur adipisicing
                     elit. Cumque sequi, error nulla ipsum veniam laudantium.
                     Error cum sapiente, possimus veniam dolorem similique
                     reiciendis amet impedit, ea eos cumque quia minima."
-                postAuthor="Karl"
+                author="Karl"
                 publicationDate="15 March 2024"
+                category="Writing"
+                commentCount={15}
             />
 
-            <PostCardLg
+            <MainPost
                 imgAlt="Example text"
                 imgSource="/images/hero-card-complete.jpg"
-                postTitle="This is the first post here, but there will be many more
+                title="This is the first post here, but there will be many more
                     soon"
-                postLead="Lorem ipsum dolor, sit amet consectetur adipisicing
+                snippet="Lorem ipsum dolor, sit amet consectetur adipisicing
                     elit. Cumque sequi, error nulla ipsum veniam laudantium.
                     Error cum sapiente, possimus veniam dolorem similique
                     reiciendis amet impedit, ea eos cumque quia minima."
-                postAuthor="Karl"
+                author="Karl"
                 publicationDate="15 March 2024"
+                category="Review"
+                commentCount={5}
             />
 
-            <PostCardLg
+            <MainPost
                 imgAlt="Example text"
                 imgSource="/images/hero-card-complete.jpg"
-                postTitle="This is the first post here, but there will be many more
+                title="This is the first post here, but there will be many more
                     soon"
-                postLead="Lorem ipsum dolor, sit amet consectetur adipisicing
+                snippet="Lorem ipsum dolor, sit amet consectetur adipisicing
                     elit. Cumque sequi, error nulla ipsum veniam laudantium.
                     Error cum sapiente, possimus veniam dolorem similique
                     reiciendis amet impedit, ea eos cumque quia minima."
-                postAuthor="Karl"
+                author="Karl"
                 publicationDate="15 March 2024"
+                category="WebDev"
+                commentCount={15}
             />
 
             <div className="flex justify-center">

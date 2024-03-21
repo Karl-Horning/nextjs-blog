@@ -1,13 +1,10 @@
 import { Input, Button } from "@nextui-org/react";
+import SidebarHeader from "./SidebarHeader";
 
-export default function Subscribe() {
+export default function Newsletter() {
     return (
         <section id="newsletter" className="pb-16">
-            <div className="pb-10">
-                <h4 className="text-xl font-bold text-white bg-black py-4 px-6">
-                    Newsletter
-                </h4>
-            </div>
+            <SidebarHeader title="Newsletter" />
 
             <div className="bg-black p-4">
                 <p className="text-white mb-4">

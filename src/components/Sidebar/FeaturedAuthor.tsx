@@ -1,13 +1,10 @@
 import { Avatar, Link } from "@nextui-org/react";
+import SidebarHeader from "./SidebarHeader";
 
 export default function FeaturedAuthor() {
     return (
         <section id="featured-author" className="pb-16">
-            <div className="pb-10">
-                <h4 className="text-xl font-bold text-white bg-black py-4 px-6">
-                    Featured Author
-                </h4>
-            </div>
+            <SidebarHeader title="Featured Author" />
 
             <div className="px-6">
                 <Avatar
@@ -22,28 +19,16 @@ export default function FeaturedAuthor() {
                     aliquam accusantium soluta saepe voluptatem, modi ipsa.
                 </p>
                 <div className="flex justify-center space-x-4">
-                    <Link
-                        href="#"
-                        className="text-danger text-2xl"
-                    >
+                    <Link href="#" className="text-danger text-2xl">
                         <i className="fa fa-facebook"></i>
                     </Link>
-                    <Link
-                        href="#"
-                        className="text-danger text-2xl"
-                    >
+                    <Link href="#" className="text-danger text-2xl">
                         <i className="fa fa-twitter"></i>
                     </Link>
-                    <Link
-                        href="#"
-                        className="text-danger text-2xl"
-                    >
+                    <Link href="#" className="text-danger text-2xl">
                         <i className="fa fa-instagram"></i>
                     </Link>
-                    <Link
-                        href="#"
-                        className="text-danger text-2xl"
-                    >
+                    <Link href="#" className="text-danger text-2xl">
                         <i className="fa fa-linkedin"></i>
                     </Link>
                 </div>

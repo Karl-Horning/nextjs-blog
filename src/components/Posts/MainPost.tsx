@@ -1,22 +1,26 @@
 import { Image, Button, Link } from "@nextui-org/react";
 
-interface PostCardLgProps {
+interface PostsMainProps {
     imgAlt: string;
     imgSource: string;
-    postTitle: string;
-    postLead: string;
-    postAuthor: string;
+    title: string;
+    snippet: string;
+    author: string;
     publicationDate: string;
+    category: string;
+    commentCount: number;
 }
 
-export default function PostCardLg({
+export default function MainPost({
     imgAlt,
     imgSource,
-    postTitle,
-    postLead,
-    postAuthor,
+    title,
+    snippet,
+    author,
     publicationDate,
-}: Readonly<PostCardLgProps>) {
+    category,
+    commentCount,
+}: Readonly<PostsMainProps>) {
     return (
         <div className="mb-16">
             <Image
@@ -26,7 +30,7 @@ export default function PostCardLg({
                 src={imgSource}
                 width="100%"
             />
-            <h3 className="text-4xl md:text-5xl font-bold mb-4">{postTitle}</h3>
+            <h3 className="text-4xl md:text-5xl font-bold mb-4">{title}</h3>
             <div className="border-b mb-4 pb-4 border-black">
                 <div className="md:inline-block">
                     <span className="pr-4">
@@ -35,7 +39,7 @@ export default function PostCardLg({
                             aria-hidden="true"
                         ></i>{" "}
                         <Link href="#" className="text-danger">
-                            {postAuthor}
+                            {author}
                         </Link>
                     </span>
                     <span className="pr-4">
@@ -55,7 +59,7 @@ export default function PostCardLg({
                             aria-hidden="true"
                         ></i>{" "}
                         <Link href="#" className="text-danger">
-                            Writing
+                            {category}
                         </Link>
                     </span>
                     <span className="pr-4">
@@ -64,13 +68,13 @@ export default function PostCardLg({
                             aria-hidden="true"
                         ></i>{" "}
                         <Link href="#" className="text-danger">
-                            15 Comments
+                            {commentCount} comments
                         </Link>
                     </span>
                 </div>
             </div>
 
-            <p className="text-lg mb-8 text-gray-600">{postLead}</p>
+            <p className="text-lg mb-8 text-gray-600">{snippet}</p>
 
             <div className="grid md:grid-cols-2 gap-4 mb-8">
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
