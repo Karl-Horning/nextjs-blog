@@ -1,13 +1,3 @@
-import {
-    Card,
-    CardHeader,
-    CardFooter,
-    Link,
-    Image,
-    Button,
-    Avatar,
-} from "@nextui-org/react";
-
 import PopularPost from "@/components/popular-post";
 
 export default function TrendingPosts() {
