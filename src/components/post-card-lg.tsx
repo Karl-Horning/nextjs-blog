@@ -28,42 +28,46 @@ export default function PostCardLg({
             />
             <h3 className="text-4xl md:text-5xl font-bold mb-4">{postTitle}</h3>
             <div className="border-b mb-4 pb-4 border-black">
-                <span className="pr-4">
-                    <i
-                        className="fa fa-user text-gray-300 pr-2"
-                        aria-hidden="true"
-                    ></i>{" "}
-                    <Link href="#" className="text-danger">
-                        {postAuthor}
-                    </Link>
-                </span>
-                <span className="pr-4">
-                    <i
-                        className="fa fa-calendar text-gray-300 pr-2"
-                        aria-hidden="true"
-                    ></i>{" "}
-                    <Link href="#" className="text-danger">
-                        {publicationDate}
-                    </Link>
-                </span>
-                <span className="pr-4">
-                    <i
-                        className="fa fa-folder-open text-gray-300 pr-2"
-                        aria-hidden="true"
-                    ></i>{" "}
-                    <Link href="#" className="text-danger">
-                        Writing
-                    </Link>
-                </span>
-                <span className="pr-4">
-                    <i
-                        className="fa fa-comments text-gray-300 pr-2"
-                        aria-hidden="true"
-                    ></i>{" "}
-                    <Link href="#" className="text-danger">
-                        15 Comments
-                    </Link>
-                </span>
+                <div className="md:inline-block">
+                    <span className="pr-4">
+                        <i
+                            className="fa fa-user text-gray-300 pr-2"
+                            aria-hidden="true"
+                        ></i>{" "}
+                        <Link href="#" className="text-danger">
+                            {postAuthor}
+                        </Link>
+                    </span>
+                    <span className="pr-4">
+                        <i
+                            className="fa fa-calendar text-gray-300 pr-2"
+                            aria-hidden="true"
+                        ></i>{" "}
+                        <Link href="#" className="text-danger">
+                            {publicationDate}
+                        </Link>
+                    </span>
+                </div>
+                <div className="md:inline-block">
+                    <span className="pr-4">
+                        <i
+                            className="fa fa-folder-open text-gray-300 pr-2"
+                            aria-hidden="true"
+                        ></i>{" "}
+                        <Link href="#" className="text-danger">
+                            Writing
+                        </Link>
+                    </span>
+                    <span className="pr-4">
+                        <i
+                            className="fa fa-comments text-gray-300 pr-2"
+                            aria-hidden="true"
+                        ></i>{" "}
+                        <Link href="#" className="text-danger">
+                            15 Comments
+                        </Link>
+                    </span>
+                </div>
             </div>
 
             <p className="text-lg mb-8 text-gray-600">{postLead}</p>
