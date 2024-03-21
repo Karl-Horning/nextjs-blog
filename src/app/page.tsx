@@ -1,4 +1,4 @@
-import Navigation from "@/components/navigation";
+import Navigation from "@/components/Navigation/Navigation";
 import Hero from "@/components/hero";
 import LatestPosts from "@/components/latest-posts";
 import AllMainPosts from "@/components/Posts/AllMainPosts";
