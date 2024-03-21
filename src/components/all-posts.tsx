@@ -3,7 +3,7 @@ import PostCardLg from "@/components/post-card-lg";
 
 export default function AllPosts() {
     return (
-        <section id="all-posts" className="container mx-auto px-4 mb-16">
+        <section id="all-posts" className="container mx-auto mb-16">
             <PostCardLg
                 imgAlt="Example text"
                 imgSource="/images/hero-card-complete.jpg"
@@ -46,9 +46,11 @@ export default function AllPosts() {
             <div className="flex justify-center">
                 <Pagination
                     showControls
-                    total={5}
+                    color="danger"
                     initialPage={1}
+                    radius="none"
                     size="lg"
+                    total={5}
                 />
             </div>
         </section>
